@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reminder App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Reminder App</h1>
+    </header>
+
+    <main class="add-task">
+            <h2>Add Task</h2>
+            <form>
+              <input type="text" placeholder="Task Name" required>
+              <input type="date" placeholder="Due Date" required>
+              <input type="time" placeholder="Due Time" required>
+              <input type="submit" value="Set Task">
+            </form>
+      <section>
+        <table id="reminder-table">
+          <thead>
+            <tr>
+              <th>Task Name</th>
+              <th>Due Date</th>
+              <th>Due Time</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+              <!-- Placeholder for task rows -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Reminder App</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
